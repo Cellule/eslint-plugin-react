@@ -2,7 +2,6 @@
 
 module.exports = {
   rules: {
-    'jsx-uses-react': require('./lib/rules/jsx-uses-react'),
     'no-multi-comp': require('./lib/rules/no-multi-comp'),
     'prop-types': require('./lib/rules/prop-types'),
     'display-name': require('./lib/rules/display-name'),
@@ -15,13 +14,13 @@ module.exports = {
     'jsx-no-undef': require('./lib/rules/jsx-no-undef'),
     'jsx-quotes': require('./lib/rules/jsx-quotes'),
     'no-unknown-property': require('./lib/rules/no-unknown-property'),
+    'no-deprecated': require('./lib/rules/no-deprecated'),
     'jsx-sort-props': require('./lib/rules/jsx-sort-props'),
     'jsx-sort-prop-types': require('./lib/rules/jsx-sort-prop-types'),
     'jsx-boolean-value': require('./lib/rules/jsx-boolean-value'),
     'sort-comp': require('./lib/rules/sort-comp')
   },
   rulesConfig: {
-    'jsx-uses-react': 0,
     'no-multi-comp': 0,
     'prop-types': 0,
     'display-name': 0,
@@ -34,6 +33,7 @@ module.exports = {
     'jsx-no-undef': 0,
     'jsx-quotes': 0,
     'no-unknown-property': 0,
+    'no-deprecated': 0,
     'jsx-sort-props': 0,
     'jsx-sort-prop-types': 0,
     'jsx-boolean-value': 0,
